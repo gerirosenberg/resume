@@ -233,13 +233,6 @@ ul.two-column li {
   margin-right: 0px;
 }
 
-.profile-pic img {
-  height: 52px;
-  width: 52px;
-  border-radius: 50%;
-  border: 2px solid #7474BF;
-}
-
 .summary {
   margin: 0px 0 5px;
 }
@@ -412,6 +405,14 @@ ul.two-column li {
     /* presentation rules for the page on color printers */
 }
 
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
 </style>
 </head>
 
@@ -422,7 +423,7 @@ ul.two-column li {
             <h1>Geri Rosenberg</h1>
             <h2>GIS Analyst and Planner</h2>
         </div>
-        <div class="profile-pic pull-right">
+        <div class="profile-pic pull-right no-print">
           <h3><a href="resume.pdf">Download PDF</a></h3>
         </div>
     </header>
