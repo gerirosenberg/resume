@@ -402,14 +402,14 @@ ul.two-column li {
 @media print {
   @page { margin: 0; }
   body { margin: .9cm; }
-  a {
-  color: #7474BF;
-  text-decoration: inherit;
-  }
+}
 
-  a:hover {
-    color: inherit;
-  }
+@media print and (color) {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    }
+    /* presentation rules for the page on color printers */
 }
 
 </style>
@@ -422,7 +422,7 @@ ul.two-column li {
             <h1>Geri Rosenberg</h1>
             <h2>GIS Analyst and Planner</h2>
         </div>
-        <div className="profile-pic pull-right">
+        <div class="profile-pic pull-right">
           <h3><a href="resume.pdf">Download PDF</a></h3>
         </div>
     </header>
