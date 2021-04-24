@@ -1,2 +1,2 @@
 # resume
- HTML/JSON resume
+ HTML/JSON resume to match gisgeri style
