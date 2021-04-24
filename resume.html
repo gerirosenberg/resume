@@ -1,0 +1,739 @@
+
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <title>Geri Rosenberg</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ectllte10k.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+
+html {
+  background: white;
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: white;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px;
+}
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .4px;
+}
+
+h3.bold {
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+h4.bold {
+  font-weight: 700;
+}
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+h5.italic {
+  font-style: italic;
+}
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+a {
+  color: #7474BF;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a .fa-external-link {
+  font-size: 10px;
+  vertical-align: text-top;
+}
+
+p,
+li {
+  font-size: 11px;
+}
+
+blockquote {
+  font-size: 11px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px;
+}
+
+em {
+  color: #999;
+}
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px;
+}
+
+ul li {
+  padding-left: 10px;
+}
+
+ul.minimal {
+  list-style: none;
+  padding: 0;
+}
+
+ul.minimal li {
+  margin-bottom: 3px;
+  padding-left: 0;
+}
+
+ul.two-column {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 28px;
+  column-count: 2;
+  column-gap: 28px;
+}
+
+ul.two-column li {
+  padding-left: 0;
+}
+
+@page {
+  size: 8.5in 11in;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #7474BF;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px;
+}
+
+.profile-pic img {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  border: 2px solid #7474BF;
+}
+
+.summary {
+  margin: 0px 0 5px;
+}
+
+.sublink {
+  font-size: 70%;
+  font-weight: 200;
+  color: dimgray;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Layouts */
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #7474BF;
+  padding: 36px 22px 30px 34px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word;
+}
+
+.right-column {
+  width: auto;
+  overflow: hidden;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none;
+  }
+
+  .page .resume-header,
+  .page .resume-content {
+    padding: 0 22px 0 34px;
+  }
+
+  .container {
+    page-break-inside: avoid;
+  }
+
+  .work-container .item {
+    page-break-inside: avoid;
+  }
+
+  .fa-external-link {
+    display: none;
+  }
+}
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px;
+}
+
+.info-tag-container .fa {
+  font-size: 14px;
+  width: 12px;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.info-tag-container .fa.fa-map-marker {
+  font-size: 16px;
+}
+
+.info-tag-container .fa.fa-mobile {
+  font-size: 18px;
+}
+
+.info-tag-container .fa.fa-envelope-o {
+  font-size: 12px;
+}
+
+.info-tag-container .fa.fa-desktop {
+  font-size: 11px;
+}
+
+.info-tag-container .fa.fa-external-link {
+  width: auto;
+  font-size: inherit;
+  vertical-align: text-top;
+}
+
+.info-tag-container .info-text {
+  font-size: 12px;
+  text-transform: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 139px;
+}
+
+.references-container .fa {
+  font-size: 14px;
+}
+
+.education-container .location {
+  padding-bottom: 6px;
+  font-weight: 400;
+}
+
+.education-container .specialization {
+  text-transform: none;
+  font-style: italic;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-skill {
+  font-size: 12px;
+}
+
+.skill {
+  margin: .15em;
+  padding: .15em;
+  background: ghostwhite;
+  border-radius: 5px;
+}
+
+@page { margin: 0; }
+
+@media print {
+  @page { margin: 0; }
+  body { margin: .9cm; }
+}
+
+/*@media print {
+  body {
+    /* IE4-8 and 9 (deprecated). */
+    filter: Gray();
+    /* SVG version for IE10, Chrome 17, FF3.5, 
+       Safari 5.2 and Opera 11.6 */
+    filter: url('#grayscale'); 
+    /* CSS3 filter, at the moment Webkit only. Prefix it for
+       future implementations */
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); /* future-proof */
+  }
+}*/
+</style>
+</head>
+
+<body>
+  <main id="resume" class="page">
+    <header class="resume-header clearfix">
+        <div class="profile-header pull-left">
+            <h1>Geri Rosenberg</h1>
+            <h2>GIS Analyst and Planner</h2>
+        </div>
+    </header>
+    <div class="resume-content">
+      <aside class="left-column">
+        <section class="container about-container">
+            <div class="title">
+                <h3>About</h3>
+                <div class="keyline"></div>
+            </div>
+                <div class="info-tag-container">
+                    <i class="fa fa-map-marker"></i>
+                
+                        <h6 class="info-text">38A Sharon St <br />
+                        San Francisco, CA 94114</h6>
+                </div>
+        
+        
+                <div class="info-tag-container">
+                    <i class="fa fa-envelope-o"></i>
+                
+                        <h6 class="info-text">
+                            <a href="mailto:geri@gisgeri.com" target="_blank">
+                                geri@gisgeri.com
+                            </a>
+                        </h6>
+                </div>
+        
+                <div class="info-tag-container">
+                    <i class="fa fa-mobile"></i>
+                
+                        <h6 class="info-text">(410) 336-5550</h6>
+                </div>
+
+                <div class="info-tag-container">
+                    <i class="fa fa-globe"></i>
+                
+                        <h6 class="info-text">
+                            <a href="http://www.gisgeri.com" target="_blank">
+                                www.gisgeri.com
+                            </a>
+                        </h6>
+                </div>
+        
+        
+                                <div class="info-tag-container">
+                                    <i class="fa fa-linkedin-square"></i>
+                                
+                                        <h6 class="info-text">
+                                            <a href="https://www.linkedin.com/in/geri-rosenberg/" target="_blank">
+                                                gerirosenberg
+                                            </a>
+                                        </h6>
+                                </div>
+                                 <div class="info-tag-container">
+                                     <i class="fa fa-github"></i>
+                                 
+                                         <h6 class="info-text">
+                                             <a href="https://github.com/gerirosenberg" target="_blank">
+                                                 gerirosenberg
+                                             </a>
+                                         </h6>
+                                 </div>
+        </section>
+            <div class="skills-container">
+                    <section class="container">
+                            <div class="title">
+                                <h3>GIS</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Expert</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">ArcGIS Pro</h6>
+                                    <h6 class="main-skill skill">ArcGIS Online</h6>
+                                    <h6 class="main-skill skill">QGIS</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>Cartography</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Expert</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">Illustrator</h6>
+                                    <h6 class="main-skill skill">InDesign</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>Geocomputing</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Expert</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">GDAL &amp; OGR</h6>
+                                    <h6 class="main-skill skill">Python</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>Web Development</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Expert</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">CSS</h6>
+                                    <h6 class="main-skill skill">Git</h6>
+                                    <h6 class="main-skill skill">HTML5</h6>
+                                    <h6 class="main-skill skill">Javascript</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>Databases</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Intermediate</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">MySQL</h6>
+                                    <h6 class="main-skill skill">PostGIS</h6>
+                                    <h6 class="main-skill skill">PostGreSQL</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>Javascript Libraries</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Intermediate</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">jQuery</h6>
+                                    <h6 class="main-skill skill">Leaflet</h6>
+                                    <h6 class="main-skill skill">Mapbox</h6>
+                                    <h6 class="main-skill skill">OpenStreetMap</h6>
+                                    <h6 class="main-skill skill">ReactJS</h6>
+                            </div>
+                    </section>
+            </div>
+      </aside>
+      <div class="right-column">
+        <div class="container education-container">
+            <div class="title">
+            <h3>Education</h3>
+            <div class="keyline"></div>
+        </div> 
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    University of Wisconsin- Madison
+            </h3>
+            <h5 class="italic pull-right">
+                    <span class="startDate">08/2018</span>
+                    <span class="endDate"> - 08/2019</span>
+            </h5>
+        </div>
+         
+                <h4>Certificate, Advanced GIS and Web Map Programming</h4>
+        
+          
+                <ul class="two-column">
+                    <li>Cartography</li>
+                    <li>Geocomputing & Spatial Analysis</li>
+                    <li>Databases</li>
+                    <li>Interactive Visualizations</li>
+                </ul>
+            </section>
+        
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    Wesleyan University (Middletown, CT)
+            </h3>
+            <h5 class="italic pull-right">
+                    <span class="startDate">08/2008</span>
+                    <span class="endDate"> - 05/2012</span>
+            </h5>
+        </div>
+         
+                <h4>B.A. American Studies, Psychology</h4>
+        
+         
+                <h5 class="specialization">Urban History and Development</h5>
+                     </section>
+        </div>
+        <div class="container work-container">
+            <div class="title">
+                <h3>Experience</h3>
+                <div class="keyline"></div>
+            </div>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Cambridge Systematics
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">07/2019</span>
+                                <span class="endDate"> - 03/2020</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Transportation Analyst, Planning</h4>
+        
+        
+        
+                    <ul>
+                        <li>Deputy project manager for $1M FTA contract; directed team through complex Federal security process and trained colleagues in expansive database access, organization, and queries</li>
+                        <li>Developed <a href="http://www.drpt.virginia.gov/media/3263/drpt-eit-in-va-executive-summary_final_112320.pdf">analysis strategy</a> for economic data from 41 transit agencies in Virginia, accounting for 175M annual ridership, $575M+ in payroll, and $480M+ in capital spending</li>
+                        <li>Collected, segmented, and analyzed data for state DOT performance measures (with focus on road safety); led QA/QC and developed static visualizations and maps for <a href="http://oipi.virginia.gov/programs/performance-measures/default.asp">reports</a></li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Smart Growth America
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">04/2016</span>
+                                <span class="endDate"> - 03/2019</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Program Associate, Economic Development</h4>
+        
+        
+        
+                    <ul>
+                        <li>Deputy project manager for $2M FTA transit-oriented development technical assistance contract; compiled quarterly financial and descriptive reports and led call agendas</li>
+                        <li>Surveyed real estate/land use and developed maps for 20+ technical assistance recipients, focused in transit-oriented development and downtown redevelopment</li>
+                        <li>Built from scratch a two-part study tour showcasing downtown redevelopment and talent attraction innovation, in <a href="https://smartgrowthamerica.org/amazing-place-communities-find-inspiration-mile-high-city/">Denver</a> and <a href="https://smartgrowthamerica.org/amazing-place-greenville/">Greenville, SC</a></li>
+                        <li>Researched for and co-authored <a href="https://smartgrowthamerica.org/app/uploads/2017/04/rural-toolkit_affordable-housing.pdf">rural affordable housing toolkit</a></li>
+                    </ul>
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Communities for Transit
+                        </h3>
+                        <h5 class="italic pull-right">
+                                <span class="startDate">08/2013</span>
+                                <span class="endDate"> - 03/2016</span>
+                        </h5>
+                    </div>
+        
+                    <h4>Project Manager</h4>
+        
+        
+        
+                    <ul>
+                        <li>Mobilized public education campaign for the planned Bus Rapid Transit System (BRT) in Montgomery County, MD &amp; recruited coalition of supporters</li>
+                        <li>Developed <a href="https://www.smartergrowth.net/wp-content/uploads/2015/08/2015-BRT-best-practices-guide.pdf">best practices BRT design guide</a> for stakeholders &amp; community</li>
+                    </ul>
+                </section>
+        </div>
+        <div class="container awards-container">
+            <div class="title">
+                <h3>Accomplishments</h3>
+                <div class="keyline"></div>
+            </div>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                First Place, Group Student Dynamic Map Competition (2019)
+                        </h3>
+                        <h5 class="italic pull-right">
+                        </h5>
+                    </div>
+        
+                    <h5 class="awarder">North American Cartographic Information Society (NACIS)</h5>
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Colorado Trail Thru-Hiker
+                        </h3>
+                        <h5 class="italic pull-right">
+                        </h5>
+                    </div>
+
+                    <h5 class="awarder">Solo-backpacked 485 miles between Denver and Durango in 24 days</h5>
+
+                </section>
+        </div>
+        <div class="container publications-container">
+            <div class="title">
+                <h3>Work Samples</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://gerirosenberg.github.io/careless-decay/" target="_blank">
+                                Careless Decay: Dental Deserts in the United States
+                            </a>
+                    </h3>
+                </div>
+                <p class="summary">Interactive story map awarded first place in NACIS competition</p>
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            <a href="https://gerirosenberg.github.io/d3-coordinated-viz/" target="_blank">
+                                How the D.C. Region Gets to Work
+                            </a>
+                    </h3>
+                </div>
+                <p class="summary">Interactive D3 map and graph from census data</p>
+        
+            </section>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+{
+  "basics": {
+    "name": "Geri Rosenberg",
+    "label": "GIS Analyst",
+    "summary": "I'm a runner, cyclist, and long-distance backpacker with a passion for smart growth and protecting public lands",
+    "picture": "",
+    "website": "http://www.itsgeri.com",
+    "email": "geri.rosenberg@gmail.com",
+    "phone": "(410) 336-5550",
+    "location": {
+      "address": "38A Sharon St",
+      "postalCode": "CA 94114",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "linkedin",
+        "url": "https://www.linkedin.com/in/geri-rosenberg/",
+        "username": "gerirosenberg"
+      },
+      {
+        "network": "instagram",
+        "url": "http://instagram.com/gerihikes",
+        "username": "gerihikes"
+      },
+      {
+        "network": "github",
+        "url": "http://github.com/gerirosenberg",
+        "username": "gerirosenberg"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of Wisconsin- Madison",
+      "area": "Advanced GIS and Web Map Programming",
+      "studyType": "Certificate,",
+      "startDate": "2018-08-01",
+      "endDate": "2019-08-01",
+      "courses":[
+        "Cartography", 
+        "Spatial Analysis", 
+        "Geocomputing",
+        "Databases",
+        "Interactive Visualizations"
+      ]
+    },
+    {
+      "institution": "Wesleyan University (Middletown, CT)",
+      "area": "American Studies",
+      "studyType": "B.A.",
+      "specialization": "Urban History and Development",
+      "startDate": "2008-08-01",
+      "endDate": "2012-05-31"
+    }
+  ],
+  "work": [
+    {
+      "company": "Cambridge Systematics",
+      "position": "Transportation Analyst",
+      "startDate": "2019-07-01",
+      "endDate": "2020-03-31",
+      "highlights": [
+        "Deputy project manager for $1M FTA contract; directed team through complex Federal security process and trained colleagues in expansive database access, organization, and queries",
+        "Aggregated economic data from 41 transit agencies in Virginia, accounting for nearly 175M annual ridership, $575M+ in payroll, and $480M+ in capital spending",
+        "Collected, segmented, and analyzed data for state DOT performance measures (with focus on road safety); led QA/QC and developed static visualizations and maps for reports"
+      ]
+    },
+    {
+      "company": "Smart Growth America",
+      "position": "Program Associate, Economic Development",
+      "startDate": "2016-04-01",
+      "endDate": "2019-03-31",
+      "highlights": [
+        "Deputy project manager for $2M FTA transit-oriented development technical assistance contract; compiled quarterly financial and descriptive reports and led call agendas",
+        "Surveyed real estate/land use and developed maps for 20+ technical assistance recipients, focused in transit-oriented development and downtown redevelopment",
+        "Built from scratch a two-part study tour showcasing downtown redevelopment and talent attraction innovation, in Denver and Greenville, South Carolina",
+        "Researched for and co-authored rural affordable housing toolkit"
+      ]
+    },
+    {
+      "company": "Communities for Transit",
+      "position": "Project Manager",
+      "startDate": "2013-08-01",
+      "endDate": "2016-03-31",
+      "highlights": [
+        "Mobilized public education campaign for the planned Bus Rapid Transit System (BRT) in Montgomery County, MD & recruited coalition of local supporters; developed best practices BRT design guide for stakeholders & community"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "GIS",
+      "level": "Expert",
+      "keywords": [
+        "ArcGIS Pro",
+        "ArcGIS Online",
+        "QGIS"
+      ]
+    },
+    {
+      "name": "Cartography",
+      "level": "Expert",
+      "keywords": [
+        "Illustrator",
+        "InDesign"
+      ]
+    },
+    {
+      "name": "Geocomputing",
+      "level": "Expert",
+      "keywords": [
+        "GDAL & OGR",
+        "Python"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Expert",
+      "keywords": [
+        "MySQL",
+        "PostGIS",
+        "PostGreSQL"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": [
+        "CSS",
+        "Git",
+        "HTML5",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Javascript Libraries",
+      "level": "Intermediate",
+      "keywords": [
+        "jQuery",
+        "Leaflet",
+        "Mapbox",
+        "OpenStreetMap",
+        "ReactJS"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Careless Decay: Dental Deserts in the United States",
+      "summary": "Interactive story map awarded first place in NACIS competition",
+      "website": "https://gerirosenberg.github.io/careless-decay/"
+    },
+    {
+      "name": "How the D.C. Region Gets to Work",
+      "summary": "Interactive map and graph",
+      "website": "https://gerirosenberg.github.io/d3-coordinated-viz/"
+    }
+  ],
+  "awards": [
+    {
+      "awarder": "North American Cartographic Information Society (NACIS)",
+      "title": "First Place, Group Student Dynamic Map Competition",
+      "date": "2019-10-01",
+      "summary": ""
+    },
+    {
+      "title": "Colorado Trail Thru-Hiker",
+      "awarder": "Solo-backpacked 485 miles between Denver and Durango in 24 days",
+      "date": "2020-09-01",
+      "awarder": ""
+    }
+  ]
+}
